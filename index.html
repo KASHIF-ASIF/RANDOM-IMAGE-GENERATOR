@@ -16,7 +16,7 @@
 <body>
   <nav class="navbar bg-light text-center">
     <div class="container-fluid" id="clickhereto">
-      <button type="button" class="btn btn-dark " onclick="pagereload()" style="font-size: xx-large;">GENERATE RANDOM IMAGE</button>
+      <button type="button" class="btn btn-dark " onclick="pagereload()" style="font-size: large;">GENERATE RANDOM IMAGE</button>
     </div>
   </nav>
   <hr>
@@ -60,8 +60,8 @@
       var change = document.getElementById('changeimagehere');
       var afterchange = document.getElementById('clickhereto');
       if (valuee != "") {
-        change.innerHTML = ' <img src="https://source.unsplash.com/1024x1024/?' + valuee + '" style="height: 70vh; width: 100vw;" class="img-fluid" alt="Generate Image">';
-        afterchange.innerHTML = '<button type="button" class="btn btn-dark " onclick="pagereload()"  style="font-size: xx-large;">CLICK HERE TO GENERATE MORE RANDOM IMAGE</button>';
+        change.innerHTML = ' <img src="https://source.unsplash.com/1024x1024/?' + valuee + '" style="height: 60vh; width: 100vw;" class="img-fluid" alt="Generate Image">';
+        afterchange.innerHTML = '<button type="button" class="btn btn-dark " onclick="pagereload()"  style="font-size: large;">CLICK HERE TO GENERATE MORE RANDOM IMAGE</button>';
         document.getElementById('inputhere').value = "";
         document.getElementById('aftersearch').style.display='none';
       }
